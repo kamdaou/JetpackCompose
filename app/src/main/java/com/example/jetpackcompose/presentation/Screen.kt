@@ -11,7 +11,9 @@ class Screens {
         object Home : Screen(route = "home", "Home")
         object PartOne : Screen("part_one", "Part one")
         object PartTwo : Screen("part_two", "Part two")
+        object PartThree : Screen("part_three", "Part three")
+        object PartFour : Screen("part_four", "Part four")
     }
 
-    val screenList = listOf(Screen.PartOne, Screen.PartTwo)
+    val screenList = listOf(Screen.PartOne, Screen.PartTwo, Screen.PartThree, Screen.PartFour)
 }

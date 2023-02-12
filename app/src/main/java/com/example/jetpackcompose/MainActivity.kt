@@ -24,7 +24,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.jetpackcompose.presentation.Screens
+import com.example.jetpackcompose.presentation.part_four.PartFourScreen
 import com.example.jetpackcompose.presentation.part_one.PartOne
+import com.example.jetpackcompose.presentation.part_three.PartThreeScreen
 import com.example.jetpackcompose.presentation.part_two.PartTwoScreen
 import com.example.jetpackcompose.ui.theme.JetpackComposeTheme
 
@@ -52,6 +54,12 @@ class MainActivity : ComponentActivity() {
                         }
                         composable(Screens.Screen.PartTwo.route) {
                             PartTwoScreen()
+                        }
+                        composable(Screens.Screen.PartThree.route) {
+                            PartThreeScreen()
+                        }
+                        composable(Screens.Screen.PartFour.route) {
+                            PartFourScreen()
                         }
                     }
                 }
