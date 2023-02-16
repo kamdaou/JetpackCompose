@@ -1,11 +1,5 @@
 package com.example.jetpackcompose.presentation
 
-import android.graphics.drawable.Icon
-import androidx.annotation.DrawableRes
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Done
-import com.example.jetpackcompose.R
-
 class Screens {
     sealed class Screen(val route: String, val title: String) {
         object Home : Screen(route = "home", "Home")
@@ -13,7 +7,26 @@ class Screens {
         object PartTwo : Screen("part_two", "Part two")
         object PartThree : Screen("part_three", "Part three")
         object PartFour : Screen("part_four", "Part four")
+        object PartFive : Screen("part_five", "Part five")
+        object PartSix : Screen("part_six", "Part six")
+        object PartSeven : Screen("part_seven", "Part seven")
+        object PartEight : Screen("part_eight", "Part eight")
+        object PartEleven : Screen("part_eleven", "Part eleven")
+        object PartTwelve : Screen("part_twelve", "Part twelve")
+        object PartThirteen : Screen("part_thirteen", "Part thirteen")
     }
 
-    val screenList = listOf(Screen.PartOne, Screen.PartTwo, Screen.PartThree, Screen.PartFour)
+    val screenList = listOf(
+        Screen.PartOne,
+        Screen.PartTwo,
+        Screen.PartThree,
+        Screen.PartFour,
+        Screen.PartFive,
+        Screen.PartSix,
+        Screen.PartSeven,
+        Screen.PartEight,
+        Screen.PartEleven,
+        Screen.PartTwelve,
+        Screen.PartThirteen
+    )
 }
