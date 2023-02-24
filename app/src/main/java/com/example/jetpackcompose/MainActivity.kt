@@ -26,11 +26,14 @@ import androidx.navigation.compose.rememberNavController
 import com.example.jetpackcompose.presentation.Screens
 import com.example.jetpackcompose.presentation.part_eight.PartEightScreen
 import com.example.jetpackcompose.presentation.part_eleven.PartElevenScreen
+import com.example.jetpackcompose.presentation.part_fifteen.PartFifteenScreen
 import com.example.jetpackcompose.presentation.part_five.PartFiveScreen
 import com.example.jetpackcompose.presentation.part_four.PartFourScreen
 import com.example.jetpackcompose.presentation.part_one.PartOne
 import com.example.jetpackcompose.presentation.part_seven.PartSevenScreen
+import com.example.jetpackcompose.presentation.part_seventeen.PartSeventeenScreen
 import com.example.jetpackcompose.presentation.part_six.PartSixScreen
+import com.example.jetpackcompose.presentation.part_sixteen.PartSixteenScreen
 import com.example.jetpackcompose.presentation.part_thirteen.PartThirteenScreen
 import com.example.jetpackcompose.presentation.part_three.PartThreeScreen
 import com.example.jetpackcompose.presentation.part_twelve.PartTwelveScreen
@@ -89,7 +92,15 @@ class MainActivity : ComponentActivity() {
                         composable(Screens.Screen.PartThirteen.route) {
                             PartThirteenScreen()
                         }
-
+                        composable(Screens.Screen.PartFifteen.route) {
+                            PartFifteenScreen()
+                        }
+                        composable(Screens.Screen.PartSixteen.route) {
+                            PartSixteenScreen()
+                        }
+                        composable(Screens.Screen.PartSeventeen.route) {
+                            PartSeventeenScreen()
+                        }
                     }
                 }
             }

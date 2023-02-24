@@ -14,6 +14,9 @@ class Screens {
         object PartEleven : Screen("part_eleven", "Part eleven")
         object PartTwelve : Screen("part_twelve", "Part twelve")
         object PartThirteen : Screen("part_thirteen", "Part thirteen")
+        object PartFifteen : Screen("part_fifteen", "Part fifteen")
+        object PartSixteen : Screen("part_sixteen", "Part sixteen")
+        object PartSeventeen : Screen("part_seventeen", "Part seventeen")
     }
 
     val screenList = listOf(
@@ -27,6 +30,9 @@ class Screens {
         Screen.PartEight,
         Screen.PartEleven,
         Screen.PartTwelve,
-        Screen.PartThirteen
+        Screen.PartThirteen,
+        Screen.PartFifteen,
+        Screen.PartSixteen,
+        Screen.PartSeventeen
     )
 }
