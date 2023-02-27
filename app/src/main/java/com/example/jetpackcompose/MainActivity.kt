@@ -24,19 +24,34 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.jetpackcompose.presentation.Screens
+import com.example.jetpackcompose.presentation.partEighteen.PartEighteenScreen
 import com.example.jetpackcompose.presentation.part_eight.PartEightScreen
 import com.example.jetpackcompose.presentation.part_eleven.PartElevenScreen
 import com.example.jetpackcompose.presentation.part_fifteen.PartFifteenScreen
 import com.example.jetpackcompose.presentation.part_five.PartFiveScreen
 import com.example.jetpackcompose.presentation.part_four.PartFourScreen
+import com.example.jetpackcompose.presentation.part_nine.PartNineScreen
+import com.example.jetpackcompose.presentation.part_nineteen.PartNineteenScreen
 import com.example.jetpackcompose.presentation.part_one.PartOne
 import com.example.jetpackcompose.presentation.part_seven.PartSevenScreen
 import com.example.jetpackcompose.presentation.part_seventeen.PartSeventeenScreen
 import com.example.jetpackcompose.presentation.part_six.PartSixScreen
 import com.example.jetpackcompose.presentation.part_sixteen.PartSixteenScreen
 import com.example.jetpackcompose.presentation.part_thirteen.PartThirteenScreen
+import com.example.jetpackcompose.presentation.part_thirty_five.PartThirtyFiveScreen
+import com.example.jetpackcompose.presentation.part_thirty_one.PartThirtyOneScreen
+import com.example.jetpackcompose.presentation.part_thirty_three.PartThirtyThreeScreen
+import com.example.jetpackcompose.presentation.part_thirty_two.PartThirtyTwoScreen
 import com.example.jetpackcompose.presentation.part_three.PartThreeScreen
 import com.example.jetpackcompose.presentation.part_twelve.PartTwelveScreen
+import com.example.jetpackcompose.presentation.part_twenty.PartTwentyScreen
+import com.example.jetpackcompose.presentation.part_twenty_eight.PartTwentyEightScreen
+import com.example.jetpackcompose.presentation.part_twenty_five.PartTwentyFiveScreen
+import com.example.jetpackcompose.presentation.part_twenty_nine.PartTwentyNineScreen
+import com.example.jetpackcompose.presentation.part_twenty_one.PartTwentyOneScreen
+import com.example.jetpackcompose.presentation.part_twenty_seven.PartTwentySevenScreen
+import com.example.jetpackcompose.presentation.part_twenty_three.PartTwentyThreeScreen
+import com.example.jetpackcompose.presentation.part_twenty_two.PartTwentyTwoScreen
 import com.example.jetpackcompose.presentation.part_two.PartTwoScreen
 import com.example.jetpackcompose.ui.theme.JetpackComposeTheme
 
@@ -100,6 +115,51 @@ class MainActivity : ComponentActivity() {
                         }
                         composable(Screens.Screen.PartSeventeen.route) {
                             PartSeventeenScreen()
+                        }
+                        composable(Screens.Screen.PartEighteen.route) {
+                            PartEighteenScreen()
+                        }
+                        composable(Screens.Screen.PartNineteen.route) {
+                            PartNineteenScreen()
+                        }
+                        composable(Screens.Screen.PartTwenty.route) {
+                            PartTwentyScreen()
+                        }
+                        composable(Screens.Screen.PartTwentyOne.route) {
+                            PartTwentyOneScreen()
+                        }
+                        composable(Screens.Screen.PartTwentyTwo.route) {
+                            PartTwentyTwoScreen()
+                        }
+                        composable(Screens.Screen.PartTwentyThree.route) {
+                            PartTwentyThreeScreen()
+                        }
+                        composable(Screens.Screen.PartTwentyFive.route) {
+                            PartTwentyFiveScreen()
+                        }
+                        composable(Screens.Screen.PartTwentySeven.route) {
+                            PartTwentySevenScreen()
+                        }
+                        composable(Screens.Screen.PartTwentyEight.route) {
+                            PartTwentyEightScreen()
+                        }
+                        composable(Screens.Screen.PartTwentyNine.route) {
+                            PartTwentyNineScreen()
+                        }
+                        composable(Screens.Screen.PartThirtyOne.route) {
+                            PartThirtyOneScreen()
+                        }
+                        composable(Screens.Screen.PartThirtyTwo.route) {
+                            PartThirtyTwoScreen()
+                        }
+                        composable(Screens.Screen.PartThirtyThree.route) {
+                            PartThirtyThreeScreen()
+                        }
+                        composable(Screens.Screen.PartThirtyFive.route) {
+                            PartThirtyFiveScreen()
+                        }
+                        composable(Screens.Screen.PartNine.route) {
+                            PartNineScreen()
                         }
                     }
                 }
